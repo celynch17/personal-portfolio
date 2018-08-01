@@ -1,0 +1,287 @@
+html{
+  margin:auto;
+}
+body{
+  margin:auto;
+  padding:0px;
+}
+
+h1{
+  text-align: center;
+    margin:auto;
+    padding-top: 15px
+}
+h6,h2{
+  font-style: italic;
+  font-style: bold;
+}
+.employment{
+  font-size: 1.4rem;
+}
+.header-text{
+      text-align: left;
+      background-image: url("https://pro2-bar-s3-cdn-cf6.myportfolio.com/f1f1188124d5b5b6bf6cf0a48afcde93/7fe42846-a37d-4bf9-8c76-1f6368843762_rw_1920.jpg?h=eae60ca1e69ed7bfadae4aea93bcf06c");
+  background-repeat: no-repeat;
+  overflow: none;
+    padding-bottom: 5px;
+    padding-right: 15px;
+  margin-bottom: 10px;
+    font-family: "Oxygen";
+    margin: auto;
+  margin-right: 0px;
+  color: #d1e0e0;
+    }
+.subheading{
+  text-align: center;
+  padding-bottom: 300px;
+  margin-bottom: 35px; 
+     margin: auto;
+  color: #d1e0e0;
+  background-opacity:1;
+}
+.subheader{
+  text-decoration: overline;
+    padding-bottom: 30px;
+}
+ul{
+  list-style-type: none;
+  font-family: "Oxygen";
+  margin:auto;
+  color: #47476b;
+  padding-left: 10px;
+}
+#photography-photo{
+  width: 90%; 
+      display: inline-block;
+      margin-left: 5px;
+      border: solid;
+      padding: 1px;
+      border-radius: 13px;
+      color:  #47476b;
+}
+.description{
+  margin:10px;
+  text-align: center;
+  color:  lightgrey;
+  background: rgba(40,48,72,.5)
+}
+a{
+    color:  #47476b;
+    text-decoration: none;
+    background-color: transparent;
+}
+.job-section{
+  text-align: left;
+  font-size: 25px;
+    display: inline-block;
+    font-style: italic;
+    font-family: "Oxygen";
+  margin-top: 25px;
+  border-top: solid #c6d9ec;
+  color:  #47476b;
+  padding-left: 15px;
+  padding-right:10px;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+.job-description{
+  padding-left:0px;
+}
+.row{
+  margin: auto;
+  padding-left: 15px;
+}
+#skill-section{
+  text-align: center;
+  font-size: 25px;
+    display: inline-block;
+    font-style: italic;
+  color:  #47476b;
+  padding:auto;
+
+;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-bottom: 25px
+}
+.skills-recap{
+    display: inline-block;
+  width: 38%;
+    border-top: solid #c6d9ec;
+     font-family: "Oxygen";
+         border-bottom: solid;
+  color:  #47476b;
+  padding: 25px;
+  margin:25px;
+}
+.job-recap{
+  display: inline-block;
+  width: 58%;
+  font-family: "Oxygen";
+/*  background: linear-gradient(#414345,#232526); 
+*/  color:  #47476b;
+  padding:20px;
+}
+.job-duties{
+  margin:auto;
+width: 1450px;
+}
+a {
+    color: #47476b;
+    text-decoration: none;
+    background-color: transparent;
+}
+.photography-description{
+  display: inline-block;
+  text-align: center; 
+  font-family: "Oxygen";
+  margin: 0px;
+  width:1440px;
+/*  background: linear-gradient(#414345,#232526);
+*/}
+.photo-description{
+  text-align: center;
+  margin-left: 55px;
+}
+
+#photo-bio{
+  padding-left: 5px;
+    position: absolute-top;
+    margin: auto;
+    text-align: center;
+/*    margin-left:15px;
+*/}
+.portfolio-link{
+  background-color: #c6d9ec;
+  border: outset;
+  border-radius: 5px;
+  border-color:darkgrey;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+.portfolio-link:hover{
+  background-color: #f2f2f2;
+  text-decoration: none;
+  color: black;
+}
+.photo-section{
+  padding-left: 5px;
+  float: right;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin: auto;
+/*  background: linear-gradient(#232526,#414345);
+*/}
+.photography-row{
+  margin-right:auto;
+}
+.photo-section-title {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 25px;
+  font-style: italic;
+  background: #f2f2f2;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #c6d9ec
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #c6d9ec;
+}
+
+/*.message-button {
+    position: relative;
+    display: inline-block;
+}
+*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgba(40,48,72,.5);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.message-button:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.coding-projects{
+/*  background: linear-gradient(#232526,#414345);
+*/  border-top: solid #c6d9ec;
+  color:   #47476b;
+  width:1400px;
+}
+
+.accordion {
+    background-color: #c6d9ec;
+    color:  #47476b;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    text-transform: .4s;
+    margin-bottom:15px;
+    margin-left: -15px
+}
+.panel {
+    padding: 10px;
+    background: #414345;
+    display: none;
+    overflow: hidden;
+    text-decoration: none;
+    margin-bottom:15px;
+    color:lightgrey;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+.footer-contact {
+    position: none;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #414345;
+    color:  #47476b;
+    text-align: left;
+    border-top: solid #c6d9ec;
+    text-align: center;
+}
+#emailContact{
+  position:absolute;
+  top: 100px;
+  left: 100px;
+  padding: 20px;
+  border: 1px solid #bbb;
+}
+
+/*#contactButton{
+  margin:20px;
+  padding:20px;
+}*/
